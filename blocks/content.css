@@ -1,0 +1,118 @@
+@media (max-width: 768px) {
+  .header {
+    padding: 24px 20px 0;
+  }
+
+  .main {
+    padding: 32px 20px 48px;
+  }
+
+  .lead__container {
+    gap: 32px;
+  }
+
+  .lead__image {
+    width: 100vw;
+    max-width: 100vw;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+  }
+
+  .lead__title {
+    font-size: 72px;
+    line-height: 76px;
+  }
+
+  .lead__subtitle {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .intro__container {
+    gap: 24px;
+    padding: 0 1.5rem;
+  }
+
+  .intro__title {
+    font-size: 42px;
+    line-height: 46px;
+  }
+
+  .intro__quote-text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .intro__quote-author {
+    font-size: 14px;
+  }
+
+  .intro__description {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .footer {
+    padding: 24px 20px;
+  }
+
+  .footer__text {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 320px) {
+  .header {
+    padding: 16px 16px 0;
+  }
+
+  .main {
+    padding: 24px 16px 32px;
+  }
+
+  .lead__container {
+    gap: 24px;
+  }
+
+  .lead__title {
+    font-size: 48px;
+    line-height: 52px;
+  }
+
+  .lead__subtitle {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .intro__container {
+    gap: 20px;
+    padding: 0 1rem;
+  }
+
+  .intro__title {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  .intro__quote-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .intro__quote-author {
+    font-size: 12px;
+  }
+
+  .intro__description {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .footer {
+    padding: 16px;
+  }
+
+  .footer__text {
+    font-size: 10px;
+  }
+}
