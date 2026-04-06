@@ -1,0 +1,29 @@
+.lead__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 40px;
+}
+
+.lead__title {
+  margin: 0;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+}
+
+.lead__subtitle {
+  margin: 0;
+  max-width: 720px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #e8e8e8;
+}
+
+.lead__image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}

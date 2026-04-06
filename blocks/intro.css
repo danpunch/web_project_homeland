@@ -1,0 +1,43 @@
+.intro__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  gap: 32px;
+}
+
+.intro__title {
+  margin: 0;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+}
+
+.intro__quote {
+  margin: 0;
+  max-width: 720px;
+}
+
+.intro__quote-text {
+  margin: 0;
+  font-size: 18px;
+  line-height: 28px;
+  color: #e8e8e8;
+}
+
+.intro__quote-author {
+  display: block;
+  margin: 16px 0 0;
+  font-size: 16px;
+  color: #d0d0d0;
+  text-align: right;
+}
+
+.intro__description {
+  margin: 0;
+  max-width: 720px;
+  font-size: 16px;
+  line-height: 28px;
+  color: #d7d7d7;
+  text-align: left;
+}
